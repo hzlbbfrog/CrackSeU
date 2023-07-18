@@ -7,10 +7,11 @@ Our paper is finally accepted by Automation in Construction after a year of revi
 The paper is available:  
 [Online monitoring of crack dynamic development using attention-based deep networks](https://www.sciencedirect.com/science/article/pii/S0926580523002820), Automation in Construction, 154 (2023) 105022, by Wang chen*, [Zhili He](http://zl-he.com/)*, and Jian Zhang#. ( *: Co-first authors, #: Corresponding Author )
 
-
+![Framework](figures/Framework.png)
 
 # Method
-![Crack](figures/1.jpg)
+![CrackSeU](figures/CrackSeU.png)
+![FFM](figures/FFM.png)
 
 # Citing CrackSeU
 You are very welcome to cite our paper! The BibTeX entry is as follows:
