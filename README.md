@@ -1,16 +1,31 @@
 # CrackSeU
-**Crack** **Se**gmentation **U**-shape (CrackSeU) Network  
+This repository is the official implementation of the **Crack** **Se**gmentation **U**-shape (**CrackSeU**) Network.
 
 ### 🔥 Break News:  
-Our paper is finally accepted by Automation in Construction after a year of review. 😭. I have to say it has been a long and tough journey.  
+Our paper is finally accepted by Automation in Construction after a year of review. I have to say it has been a long and tough journey. 😭.
 
 The paper is available:  
 [Online monitoring of crack dynamic development using attention-based deep networks](https://www.sciencedirect.com/science/article/pii/S0926580523002820), Automation in Construction, 154 (2023) 105022, by Wang chen*, [Zhili He](http://zl-he.com/)*, and Jian Zhang#. ( *: Co-first authors, #: Corresponding Author )
 
 ![Framework](figures/Framework.png)
 
+# Getting Started
+### Requirement
+~~~
+
+~~~
+
+### Installation
+```bash
+git clone https://github.com/UX-Decoder/Semantic-SAM
+cd Semantic-SAM
+```
+
 # Method
+### :rocket: The network architecture of CrackSeU:
 ![CrackSeU](figures/CrackSeU.png)
+
+### :rocket: Illustration of the proposed FFM:
 ![FFM](figures/FFM.png)
 
 # Citing CrackSeU
@@ -31,6 +46,6 @@ keywords = {Crack identification, Online monitoring method, Deep learning}
 ```
 
 # Acknowledgements
-SEU is also the abbreviation of [Southesast Univertisy](https://www.seu.edu.cn/).
-The name of our framework is also dedicated to the 120th anniversary of Southeast University.
+SEU is also the abbreviation of [Southesast Univertisy](https://www.seu.edu.cn/).  
+The name of our framework ( Crack[**SeU**](https://www.seu.edu.cn/)) is also dedicated to the 120th anniversary of Southeast University.
 
