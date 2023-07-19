@@ -10,15 +10,55 @@ The paper is available:
 ![Framework](figures/Framework.png)
 
 # Getting Started
-### Requirement
+### 1. Requirement
+~~~
+Recommended versions are
+    * python = 3.5
+    * pytorch = 1.12.1
+    * CUDA 11.6.2 and CUDNN 8.6.0  
+Other requirements can be found in the Requirements.txt.
 ~~~
 
-~~~
-
-### Installation
+### 2. Installation
 ```bash
-git clone https://github.com/UX-Decoder/Semantic-SAM
-cd Semantic-SAM
+git clone https://github.com/hzlbbfrog/CrackSeU
+cd CrackSeU
+pip install -r Requirements.txt
+```
+Or, you can directly "Download ZIP".
+
+### 3. Build your own dataset
+You can refer to the following file tree to organize your own data.
+```
+Your project
+│   README.md
+│   ...
+│   CrackSeU_main.py
+│
+└───Dataset
+    |
+    └───Your dataset name
+        |
+        └───Train
+            └───images
+            └───masks
+        └───Test
+            └───images
+            └───masks
+│  
+└───...Other directories   
+```
+
+### 4. Training
+To train the CrackSeU with LN_VT, simply run:
+```shell
+python CrackSeU_main.py --action=train --arch=CrackSeU_S_LN_VT --epoch=50 --batch_size=2 --lr=1e-4
+```
+
+### 5. Test
+To test the CrackSeU with LN_VT, simply run:
+```shell
+python CrackSeU_main.py --action=test --arch=CrackSeU_S_LN_VT --test_epoch=50
 ```
 
 # Method
