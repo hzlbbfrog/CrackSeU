@@ -9,7 +9,7 @@ The paper is available:
 
 ![Framework](figures/Framework.png)
 
-# Getting Started
+# 🛴 Getting Started
 ### 1. Requirement
 ~~~
 Recommended versions are
@@ -66,14 +66,14 @@ To test the CrackSeU-B with LN_VT, simply run:
 python CrackSeU_main.py --action=test --arch=CrackSeU_B_LN_VT --test_epoch=50
 ```
 
-# Method
+# 🎯 Method
 ### :rocket: The network architecture of CrackSeU:
 ![CrackSeU](figures/CrackSeU.png)
 
 ### :rocket: Illustration of the proposed FFM:
 ![FFM](figures/FFM.png)
 
-# Citing CrackSeU
+# 💘 Citing CrackSeU
 You are very welcome to cite our paper! The BibTeX entry is as follows:
 
 ```BibTeX
@@ -90,7 +90,7 @@ keywords = {Crack identification, Online monitoring method, Deep learning}
 }
 ```
 
-# Acknowledgements
+# 👅 Acknowledgements
 SEU is also the abbreviation of [Southesast Univertisy](https://www.seu.edu.cn/).  
 The name of our framework ( Crack[**SeU**](https://www.seu.edu.cn/)) is also dedicated to the 120th anniversary of Southeast University.
 
