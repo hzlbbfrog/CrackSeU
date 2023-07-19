@@ -1,0 +1,6 @@
+opencv-python
+time
+copy
+ptflops
+pillow
+scikit-learn
