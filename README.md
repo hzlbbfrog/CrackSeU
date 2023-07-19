@@ -50,15 +50,20 @@ Your project
 ```
 
 ### 4. Training
-To train the CrackSeU with LN_VT, simply run:
+- [x] Include CrackSeU-B with LN_VT.
+- [x] Include CrackSeU-B with BN.
+- [x] Include CrackSeU-B with LN_Pytorch.
+- [x] Include CrackSeU-B with LN_He.
+
+To train the CrackSeU-B with LN_VT, simply run:
 ```shell
-python CrackSeU_main.py --action=train --arch=CrackSeU_S_LN_VT --epoch=50 --batch_size=2 --lr=1e-4
+python CrackSeU_main.py --action=train --arch=CrackSeU_B_LN_VT --epoch=50 --batch_size=2 --lr=1e-4
 ```
 
 ### 5. Test
-To test the CrackSeU with LN_VT, simply run:
+To test the CrackSeU-B with LN_VT, simply run:
 ```shell
-python CrackSeU_main.py --action=test --arch=CrackSeU_S_LN_VT --test_epoch=50
+python CrackSeU_main.py --action=test --arch=CrackSeU_B_LN_VT --test_epoch=50
 ```
 
 # Method
