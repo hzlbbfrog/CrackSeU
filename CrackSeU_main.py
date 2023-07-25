@@ -212,7 +212,7 @@ def test(test_dataloader,save_predict=False):
     model.load_state_dict(torch.load(save_path + str(args.arch) + '_' + str(args.batch_size) + '_' + str(args.dataset) + '_' + str(args.test_epoch) + '.pth', map_location='cpu'))  # 载入训练好的模型
     model.eval()
 
-    # ------------- Reference -------------- #
+    # ------------- Inference -------------- #
     with torch.no_grad():
         i=0   # i-th image
         IoU_total = 0.
