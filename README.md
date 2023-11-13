@@ -73,6 +73,9 @@ python CrackSeU_main.py --action=test --arch=CrackSeU_B_LN_VT --test_epoch=50
 ### :rocket: Illustration of the proposed FFM:
 ![FFM](figures/FFM.png)
 
+# :medal_military: Results
+
+
 # 💘 Citing CrackSeU
 You are very welcome to cite our paper! The BibTeX entry is as follows:
 
