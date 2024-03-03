@@ -88,7 +88,7 @@ python CrackSeU_main.py --action=test --arch=CrackSeU_B_LN_VT --test_epoch=50
 | **CrackSeU-M**             | **85.85**         | **81.53**         | **88.66**           | **3.58**            | **15.04**       |   
 | **CrackSeU-L**             | **86.39**         | **82.09**         | **89.11**           | **4.62**            | **28.22**       |
 
-It is worth noting that the number of parameters of **CrackSeU-L** is 4.62.
+It is worth noting that the number of parameters of **CrackSeU-L** is 4.62M. In the original paper, we mistakenly considered the parameters of the SOB so that the data is 4.70M and a little higher than the true #Param. (4.62M). We are really sorry if this makes you confused. 
 
 ### Quantitative evaluation of different models on Deepcrack
 | **Method**                 | **m IoU (%)**  | **mi IoU (%)** | **mi Dice (%)** | **F1 score** | **#Param. (M)** |**MACs (G)** |
