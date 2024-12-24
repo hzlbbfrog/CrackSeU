@@ -102,7 +102,10 @@ We are really sorry if this makes you confused.
 | **CE-Net**                 | 69.24          | 68.80          | 76.10          | 79.30         |29.00           | 28.37       |
 | **DeepLabv3+ (MobileNetv2)**   | 69.70          | 69.18          | 74.23          | 78.34          |5.81           | 23.25       |
 | **DeepLabv3+ (ResNet-101)**     | 70.15         | 67.52          | 73.82          | 78.38          |59.34           | 70.80       |
-| **CrackSeU-B**             | **73.80**          | **81.32**          | **81.40**          |**81.82**           | **3.19**            | **8.94**       |
+| **CrackSeU-B**             | **73.80**          | **71.71**          | **81.40**          |**81.82**           | **3.19**            | **8.94**       |
+
+**Correction in 2024/12/24** 
+we find a difference between the above results and the table in [the original paper](https://www.sciencedirect.com/science/article/pii/S0926580523002820). This is because we directly copy the table about Concretecrack. We have corrected it.
 
 ## 💘 Citing CrackSeU
 You are very welcome to cite our paper! The BibTeX entry is as follows:
